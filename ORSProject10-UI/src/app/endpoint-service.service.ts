@@ -40,5 +40,10 @@ export class EndpointServiceService {
   public JOB = this.SERVER_URL + "/Job";
   public SUPPLIER = this.SERVER_URL + "/Supplier";
  public CLIENT = this.SERVER_URL + "/Client";
+ public ASSET = this.SERVER_URL + "/Asset";
+  public TRANSPORT = this.SERVER_URL + "/Transport";
+    public ENROLLMENT = this.SERVER_URL + "/Enrollment";
+     public DELIVERY = this.SERVER_URL + "/Delivery";
+     public FOLLOWUP = this.SERVER_URL + "/followup";
 }
 

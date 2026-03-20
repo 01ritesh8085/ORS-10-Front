@@ -92,6 +92,16 @@ import { SupplierComponent } from './supplier/supplier.component';
 import { SupplierListComponent } from './supplier/supplier-list.component';
 import { ClientComponent } from './client/client.component';
 import { ClientlistComponent } from './client/clientlist.component';
+import { AssetComponent } from './asset/asset.component';
+import { AssetListComponent } from './asset/asset-list.component';
+import { TransportComponent } from './transport/transport.component';
+import { TransportlistComponent } from './transport/transport-list.component';
+import { EnrollmentComponent } from './enrollment/enrollment.component';
+import { EnrollmentlistComponent } from './enrollment/enrollmentlist.component';
+import { DeliveryComponent } from './delivery/delivery.component';
+import { DeliverylistComponent } from './delivery/deliverylist.component';
+import { FollowUpComponent } from './followup/followup.component';
+import { FollowuplistComponent } from './followup/followuplist.component';
 
 
 
@@ -183,6 +193,16 @@ export function myHttpLoader(http: HttpClient) {
     SupplierListComponent,
     ClientComponent,
     ClientlistComponent,
+    AssetComponent,
+    AssetListComponent,
+    TransportComponent,
+    TransportlistComponent,
+    EnrollmentComponent,
+    EnrollmentlistComponent,
+    DeliveryComponent,
+    DeliverylistComponent,
+    FollowUpComponent,
+    FollowuplistComponent,
 
   
   ],

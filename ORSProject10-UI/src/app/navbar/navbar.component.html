@@ -81,6 +81,90 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="nav navbar-nav ml-auto" style="padding-right: 5%;">
 
+      <!-- =================================== ENROLLMENTE=========================================== -->
+
+      <li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{ "Enrollment" | translate }}</font>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/enrollment']">
+            <i class="fa fa-university"></i> &nbsp;
+            {{ "Add Enrollment" | translate }}
+          </a>
+
+          <a class="dropdown-item" [routerLink]="['/enrollment']">
+            <i class="fa fa-building"></i> &nbsp;
+            {{ "Enrollment List" | translate }}
+          </a>
+        </div>
+      </li>
+
+      <!-- =================================== DELIVERY=========================================== -->
+
+      <li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{ "Delivery" | translate }}</font>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/delivery']">
+            <i class="fa fa-university"></i> &nbsp;
+            {{ "Add Delivery" | translate }}
+          </a>
+
+          <a class="dropdown-item" [routerLink]="['/delivery']">
+            <i class="fa fa-building"></i> &nbsp;
+            {{ "Delivery List" | translate }}
+          </a>
+        </div>
+      </li>
+
+           <!-- =================================== TRANSPORT=========================================== -->
+
+      <li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{ "Transport" | translate }}</font>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/transport']">
+            <i class="fa fa-university"></i> &nbsp;
+            {{ "Add Transport" | translate }}
+          </a>
+
+          <a class="dropdown-item" [routerLink]="['/clientlist']">
+            <i class="fa fa-building"></i> &nbsp;
+            {{ "Transport List" | translate }}
+          </a>
+        </div>
+      </li>
+
+          <!-- =================================== FOLLOWUP=========================================== -->
+
+      <!-- <li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{ "FollowUp" | translate }}</font>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/followup']">
+            <i class="fa fa-university"></i> &nbsp;
+            {{ "Add FollowUp" | translate }}
+          </a>
+
+          <a class="dropdown-item" [routerLink]="['/followuplist']">
+            <i class="fa fa-building"></i> &nbsp;
+            {{ "FollowUp List" | translate }}
+          </a>
+        </div>
+      </li> -->
+
 
           <!-- =================================== CLIENT =========================================== -->
 
@@ -102,6 +186,24 @@
           </a>
         </div>
       </li>
+    
+
+       <!-- =================================== ASSET =========================================== -->
+
+      <li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{ "Asset" | translate }}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/asset']"><i class="fa fa-calculator"></i> &nbsp;
+            {{ "Add Asset" | translate }}</a>
+          <a class="dropdown-item" [routerLink]="['/assetlist']">
+            <i class="fa fa-list"></i> &nbsp;
+            {{ "Asset List" | translate }}
+          </a>
+        </div>
+      </li> 
 
 
       <!-- =================================== SUPPLIER =========================================== -->

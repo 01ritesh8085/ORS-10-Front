@@ -71,8 +71,16 @@ import { SupplierComponent } from './supplier/supplier.component';
 import { SupplierListComponent } from './supplier/supplier-list.component';
 import { ClientComponent } from './client/client.component';
 import { ClientlistComponent } from './client/clientlist.component';
-
-
+import { AssetComponent } from './asset/asset.component';
+import { AssetListComponent } from './asset/asset-list.component';
+import { TransportComponent } from './transport/transport.component';
+import { TransportlistComponent } from './transport/transport-list.component';
+import { EnrollmentComponent } from './enrollment/enrollment.component';
+import { EnrollmentlistComponent } from './enrollment/enrollmentlist.component';
+import { DeliveryComponent } from './delivery/delivery.component';
+import { DeliverylistComponent } from './delivery/deliverylist.component';
+import { FollowUpComponent } from './followup/followup.component';
+import { FollowuplistComponent } from './followup/followuplist.component';
 
 const routes: Routes = [
     {
@@ -84,6 +92,85 @@ const routes: Routes = [
         path: 'dashboard',
         component: DashboardComponent
     },
+
+
+       
+          // ***********FOLLOWUP*************
+
+    {
+        path: 'followup',
+        component: FollowUpComponent
+    },
+    {
+        path: 'followuplist',
+        component: FollowuplistComponent
+    },
+    {
+        path: 'followup/:id',
+        component: FollowUpComponent
+    },
+    
+          // ***********DELIVERY*************
+
+    {
+        path: 'delivery',
+        component: DeliveryComponent
+    },
+    {
+        path: 'deliverylist',
+        component: DeliverylistComponent
+    },
+    {
+        path: 'delivery/:id',
+        component: DeliveryComponent
+    },
+    
+        // ***********ENROLLMENT*************
+
+    {
+        path: 'enrollment',
+        component: EnrollmentComponent
+    },
+    {
+        path: 'enrollmentlist',
+        component: EnrollmentlistComponent
+    },
+    {
+        path: 'enrollment/:id',
+        component: EnrollmentComponent
+    },
+        // ***********TRANSPORT*************
+
+    {
+        path: 'transport',
+        component: TransportComponent
+    },
+    {
+        path: 'transportlist',
+        component: TransportlistComponent
+    },
+    {
+        path: 'transport/:id',
+        component: TransportComponent
+    },
+
+
+    
+    // ***********ASSET*************
+
+    {
+        path: 'asset',
+        component: AssetComponent
+    },
+    {
+        path: 'assetlist',
+        component: AssetListComponent
+    },
+    {
+        path: 'asset/:id',
+        component: AssetComponent
+    },
+
 
     // ***********EMPLOYEE*************
     {
