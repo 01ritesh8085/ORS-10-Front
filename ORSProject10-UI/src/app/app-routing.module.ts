@@ -81,6 +81,8 @@ import { DeliveryComponent } from './delivery/delivery.component';
 import { DeliverylistComponent } from './delivery/deliverylist.component';
 import { FollowUpComponent } from './followup/followup.component';
 import { FollowuplistComponent } from './followup/followuplist.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { FeedbacklistComponent } from './feedback/feedbacklist.component';
 
 const routes: Routes = [
     {
@@ -92,6 +94,22 @@ const routes: Routes = [
         path: 'dashboard',
         component: DashboardComponent
     },
+
+       // ***********FEEDBACK*************
+
+    {
+        path: 'feedback',
+        component: FeedbackComponent
+    },
+    {
+        path: 'feedbacklist',
+        component: FeedbacklistComponent
+    },
+    {
+        path: 'feedback/:id',
+        component: FeedbackComponent
+    },
+    
 
 
        

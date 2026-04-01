@@ -45,5 +45,6 @@ export class EndpointServiceService {
     public ENROLLMENT = this.SERVER_URL + "/Enrollment";
      public DELIVERY = this.SERVER_URL + "/Delivery";
      public FOLLOWUP = this.SERVER_URL + "/followup";
+     public FEEDBACk = this.SERVER_URL + "/feedback";
 }
 

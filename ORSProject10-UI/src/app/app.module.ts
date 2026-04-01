@@ -102,6 +102,8 @@ import { DeliveryComponent } from './delivery/delivery.component';
 import { DeliverylistComponent } from './delivery/deliverylist.component';
 import { FollowUpComponent } from './followup/followup.component';
 import { FollowuplistComponent } from './followup/followuplist.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { FeedbacklistComponent } from './feedback/feedbacklist.component';
 
 
 
@@ -203,6 +205,8 @@ export function myHttpLoader(http: HttpClient) {
     DeliverylistComponent,
     FollowUpComponent,
     FollowuplistComponent,
+    FeedbackComponent,
+    FeedbacklistComponent,
 
   
   ],
