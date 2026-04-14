@@ -104,6 +104,12 @@ import { FollowUpComponent } from './followup/followup.component';
 import { FollowuplistComponent } from './followup/followuplist.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { FeedbacklistComponent } from './feedback/feedbacklist.component';
+import { ComplaintComponent } from './complaint/complaint.component';
+import { ComplaintlistComponent } from './complaint/complaintlist.component';
+import { ParkingComponent } from './parking/parking.component';
+import { ParkingListComponent } from './parking/parkinglist.component';
+import { LanguageComponent } from './language/language.component';
+import { LanguagelistComponent } from './language/languagelist.component';
 
 
 
@@ -207,6 +213,12 @@ export function myHttpLoader(http: HttpClient) {
     FollowuplistComponent,
     FeedbackComponent,
     FeedbacklistComponent,
+    ComplaintComponent,
+    ComplaintlistComponent,
+    ParkingComponent,
+    ParkingListComponent,
+    LanguageComponent,
+    LanguagelistComponent,
 
   
   ],

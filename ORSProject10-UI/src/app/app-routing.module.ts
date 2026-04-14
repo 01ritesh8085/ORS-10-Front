@@ -83,6 +83,11 @@ import { FollowUpComponent } from './followup/followup.component';
 import { FollowuplistComponent } from './followup/followuplist.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { FeedbacklistComponent } from './feedback/feedbacklist.component';
+import { ComplaintComponent } from './complaint/complaint.component';
+import { ParkingComponent } from './parking/parking.component';
+import { ParkingListComponent } from './parking/parkinglist.component';
+import { LanguageComponent } from './language/language.component';
+import { LanguagelistComponent } from './language/languagelist.component';
 
 const routes: Routes = [
     {
@@ -94,6 +99,52 @@ const routes: Routes = [
         path: 'dashboard',
         component: DashboardComponent
     },
+
+      // ***********LANGUAGE*************
+
+    {
+        path: 'language',
+        component: LanguageComponent
+    },
+    {
+        path: 'languagelist',
+        component: LanguagelistComponent
+    },
+    {
+        path: 'language/:id',
+        component: LanguageComponent
+    },
+     
+      // ***********PARKING*************
+
+    {
+        path: 'parking',
+        component: ParkingComponent
+    },
+    {
+        path: 'parkinglist',
+        component: ParkingListComponent
+    },
+    {
+        path: 'parking/:id',
+        component: ParkingComponent
+    },
+    
+      // ***********COMPLAINT*************
+
+    {
+        path: 'complaint',
+        component: ComplaintComponent
+    },
+    {
+        path: 'complaintlist',
+        component: CompensationlistComponent
+    },
+    {
+        path: 'complaint/:id',
+        component: ComplaintComponent
+    },
+    
 
        // ***********FEEDBACK*************
 
